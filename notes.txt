@@ -1,0 +1,15 @@
+Stuffs that needs attention:
+
+    1.  Figure out static directory - currently working but not final
+
+        Current version:
+        STATICFILES_DIRS = (os.path.join(BASE_DIR, '/home/razer/Desktop/project/e-commerce/static'), )
+
+        Should be:
+        STATICFILES_DIRS = (os.path.join(BASE_DIR, 'home\static'), )
+
+    2. Add the address field in Customer table (if needed)
+
+    3. Add categories page
+
+    4. Need to refresh page everytime while adding product to cart
